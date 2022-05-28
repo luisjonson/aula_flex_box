@@ -1,0 +1,67 @@
+/*Seletor Classe  */
+.container{
+  background-color: #bbc7ce;
+  height: 400px;
+  display: flex;
+/*   justify-content: flex-start;  */
+/*   padrão */
+  
+/*   center */
+/*   justify-content: center; */
+  
+/*  final*/
+/*   justify-content: flex-end; */
+  
+/*  bota espacço entre os elementos */
+  justify-content: space-between;
+  
+/*   espaçamento na laterais */
+/*   justify-content: space-around; */
+
+/*   espaçamento do tamanho igual. */
+/*   justify-content: space-evenly; */
+  
+/*   justify-content: baseline; */
+
+/*   aling-item manipula os item do eixo tranversal */
+/*   topo */
+/*   align-items: flex-start; */
+/*   center */
+  align-items: center;
+  
+/*   baixo */
+/*   align-items: flex-end; */
+/*  auto se alinha de acordo com a tela*/
+  flex-wrap: nowrap;
+/*   flex-wrap: wrap; */
+  flex-direction: row; 
+/*   flex-direction: column;  */
+/*   flex-direction: column-reverse;  */
+/*   flex-direction: row-reverse;  */
+}
+
+.item{
+  background-color: #98e2c6;
+  color: black;
+  border:1px solid black;
+  width: 100px;
+  height: 100px;
+
+  flex-grow: 0;
+  flex-shrink: 1;
+}
+.item1{
+/*   flex-grow: 1; */
+  flex-shrink: 1;
+}
+.item2{
+/*   flex-grow: 2; */
+  flex-shrink: 5;
+}
+
+/*Seletor TAG  */
+body{
+  background-color: #545c52;
+  color: #f1f1f1;
+  text-align: center;
+}
